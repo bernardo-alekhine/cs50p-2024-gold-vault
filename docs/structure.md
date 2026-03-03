@@ -1,6 +1,6 @@
-# Structure #
+# Structure
 
-### Project structure ###
+### Project structure
 The project top level directory is structured as the following:
 
 ```
