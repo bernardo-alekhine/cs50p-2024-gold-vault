@@ -1,6 +1,6 @@
-# Gold Vault #
-#### Video Demo: https://youtu.be/UEdGssHA8Ig ####
-## Content table ##
+# Gold Vault 
+#### Video Demo: https://youtu.be/UEdGssHA8Ig
+## Content table
 + [Description](#description)
 + [Cautions](#cautions)
 + [Prerequisites](#prerequisites)
@@ -8,7 +8,7 @@
 + [App Docs](#app-docs)
 + [Contact Information and Licensing](#contact-information-and-licensing)
 
-#### Description: ####
+#### Description:
 This simple project that has room for scability aims to provide the user with a quick and efficient way to reversibly
 encrypt and decrypt any types of files as wished. It uses python built-in `argparse` library to parse command line
 arguments and functionalities from the `cryptography` module.
@@ -40,7 +40,7 @@ password is the same password that was used on encryption of this file. So for:
 
 Else, an decryption error will be raised.
 
-#### Cautions ####
+#### Cautions
 Only files encrypted by `gvault` will be able to be decrypted by `gvault` decrypt functionality. If the password for an
 encrypted file is forgotten, the `gvault` command doesn't have any way to retrieve or decrypt it by any conventional
 means offered by the program. Any operation executed by `gvault` won't delete the given `input_paths` but occasional
@@ -58,11 +58,11 @@ For sake of simplicity and efficiency, confirmation isn't asked for passwords. S
 typed is correct. Attempt decryption of the now encrypted file using the same password. Preferably don't delete the
 original file or its data before assuring it's with the correct password.
 
-### Prerequisites ###
+### Prerequisites
 + Python 3.12.4 or later: [Download Python](https://www.python.org/downloads/)
 + pip 24.2
 
-### Installation ###
+### Installation
 1. Run `pip install -r requirements.txt` at the project's top level directory to install all required dependencies of
 the project to the python environment. Either local or virtual (venv).
 
@@ -72,12 +72,12 @@ the project to the python environment. Either local or virtual (venv).
 
 If fail at running `pip install .`, remove `gold-vault` directory from `src` and reinstall.
 
-### App docs ###
+### App docs
 Brief documentation referent to app specific structure, behavior or functionality are found at [docs](docs/).
 
-#### Contact Information and licensing ####
-+ GitHub: [Bernardiswz](https://github.com/Bernardiswz)
-+ LinkedIn [Bernardo Alekhine](https://www.linkedin.com/in/bernardo-alekhine-461791299)
+#### Contact Information and licensing
++ GitHub: [Bernardiswz](https://github.com/bernardo-alekhine)
++ LinkedIn [Bernardo Alekhine](https://www.linkedin.com/in/bernardo-alekhine)
 
 This project may not be production-ready and/or fully fledged.
 I take no responsibility for the usage or any possible fails or losses of data through the usage of `gvault`. Since it
