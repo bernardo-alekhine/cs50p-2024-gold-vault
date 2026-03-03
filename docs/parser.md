@@ -1,10 +1,10 @@
-# Parser #
+# Parser
 
-## Content table ##
+## Content table
 + [Description](#description)
 + [Overview](#overview)
 
-### Description ###
+### Description
 The [parser](/src/gvault/parser) package contains the app's algorithms and operations to generate a parser object
 to parse command line arguments into an `argparse.Namespace` object. As following:
 
