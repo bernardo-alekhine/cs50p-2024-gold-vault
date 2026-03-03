@@ -1,6 +1,6 @@
-# Error Handling #
+# Error Handling
 
-### Description ###
+### Description
 The [error_handling](/src/gvault/error_handling) package contains the app's base error handler for basic unexpected
 behavior in the program's functionality throughout the processes executed by `parser` and `crypto`. As in many command
 line interface program's, the error handling was abstracted to mostly exit the program and provide meaningful messages
