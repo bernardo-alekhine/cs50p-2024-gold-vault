@@ -70,14 +70,9 @@ original file or its data before assuring it's with the correct password.
 
 ### Installation
 
-1. Run `pip install -r requirements.txt` at the project's top level directory to install all required dependencies of
-the project to the python environment. Either local or virtual (venv).
+1. Run `pip install .` at the top level directory of the project. Either local or virtual (venv).
 
-2. Then proceed with `pip install .` at the top level directory of the project. The one that contains `setup.py`.
-
-3. The `gvault` command will be available at the command line interface to use.
-
-If fail at running `pip install .`, remove `gold-vault` directory from `src` and reinstall.
+2. The `gvault` command will be available at the command line interface to use.
 
 ### App docs
 
