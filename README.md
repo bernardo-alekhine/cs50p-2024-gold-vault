@@ -84,5 +84,4 @@ Brief documentation referent to app specific structure, behavior or functionalit
 - LinkedIn [Bernardo Alekhine](https://www.linkedin.com/in/bernardo-alekhine)
 
 This project may not be production-ready and/or fully fledged.
-I take no responsibility for the usage or any possible fails or losses of data through the usage of `gvault`. Since it
-is a learning project and the project and meant to be sent to CS50P 2024 as the final project.
+I take no responsibility for the usage or any possible fails or losses of data through the usage of `gvault`.
