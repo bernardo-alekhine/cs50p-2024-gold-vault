@@ -29,6 +29,9 @@ jobs:
         run: |
           coverage run -m pytest
           coverage html
+        env:
+          TMPDIR: ${{ runner.temp }}
+          PYTEST_TMPDIR: ${{ runner.temp }}
 
       - name: Upload coverage HTML as artifact
         uses: actions/upload-artifact@v4
