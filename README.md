@@ -44,6 +44,10 @@ password is the same password that was used on encryption of this file. So for:
 
 Else, an decryption error will be raised.
 
+### Test Coverage
+
+This project includes **over 100 automated tests** covering core functionality, integration points, and edge cases. All tests pass reliably: [Coverage](docs/screenshots/)
+
 ### Cautions
 
 Only files encrypted by `gvault` will be able to be decrypted by `gvault` decrypt functionality. If the password for an
