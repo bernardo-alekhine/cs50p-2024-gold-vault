@@ -1,6 +1,6 @@
 import argparse
 import pytest
-from typing import Any, Dict, Generator, List
+from typing import Any, Dict, Generator
 from unittest.mock import patch, MagicMock
 from gvault.crypto import Crypto  # type: ignore
 from gvault.crypto.utils import LinkProcessor  # type: ignore
