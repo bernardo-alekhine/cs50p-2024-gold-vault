@@ -1,0 +1,5 @@
+black
+coverage
+mypy
+pytest
+pytest-mock

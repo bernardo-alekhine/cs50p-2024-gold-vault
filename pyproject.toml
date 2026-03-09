@@ -7,6 +7,10 @@ name = "gold-vault"
 version = "0.1.0"
 description = "CLI tool for reversible file encryption and decryption"
 requires-python = ">=3.12"
+dependencies = [
+    "cryptography",
+    "click"
+]
 
 [project.scripts]
 gvault = "gvault.cli:cli_main"
