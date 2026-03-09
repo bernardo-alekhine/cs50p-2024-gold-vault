@@ -24,18 +24,14 @@ namespaces = true
 
 [tool.black]
 line-length = 120
-
 target-version = ["py312"]
-
-include = "\.pyi?$"
+include = '\.pyi?$'
 extend-exclude = """
 /(
     \.git
-
   | \.hg
   | \.mypy_cache
   | \.tox
-
   | \.venv
   | _build
   | buck-out
@@ -50,8 +46,5 @@ exclude = [
     ".venv",
 ]
 
-# Ensures pytest finds test files
+[tool.pytest.ini_options]
 python_files = ["tests.py", "test_*.py", "*_tests.py"]
-
-# Speed up tests
-addopts = "--reuse-db"
